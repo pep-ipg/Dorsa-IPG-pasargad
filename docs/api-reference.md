@@ -3,6 +3,7 @@
 این فایل شامل توضیحات متدهای API درگاه پرداخت درسا است.
 
 ## دریافت توکن
+[
 **URL:**`https://pep.shaparak.ir/dorsa1/token/getToken)`  
 **Method:** POST  
 **Body:**  
@@ -11,6 +12,7 @@
     "username": "your-username",
     "password": "your-password"
 }
+]
 -  مدت زمان expire شدن توکن 10 دقیقه است و درصورت دریافت خطای 401 (خطای احراز هویت ) مجدد احراز هویت انجام شود.
 
 ## خروجی موفق:
