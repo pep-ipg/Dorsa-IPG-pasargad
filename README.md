@@ -17,4 +17,4 @@ POST /token/getToken
 
 
 ## مستندات بیشتر
-برای اطلاعات بیشتر، به **[مستندات](https://pep.co.ir/wp-content/uploads/2024/01/Parsa-IPG-2.pdf):** مراجعه کنید.
+برای اطلاعات بیشتر، به **[مستندات](https://pep.co.ir/wp-content/uploads/2024/01/Parsa-IPG-2.pdf)** مراجعه کنید.
