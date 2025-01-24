@@ -22,8 +22,8 @@
  "resultMsg": "Successful",
  "resultCode": 0,
  "token":
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjM2Mjg2MzYsImp0aSI6IjEwMDYwIiwiaWF0Ij
-oxNzIzNjI1MDM2LCJzdWIiOiJpcGdUZXN0VXNlciJ9.8TMZ2UxKK5z4v-rYEactL_OrJJ4gtVAZHFl4JcmGSn4,
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjM2Mjg2MzYsImp0aSI6IjEwMDYwIiwiaWF0Ij
+oxNzIzNjI1MDM2LCJzdWIiOiJpcGdUZXN0VXNlciJ9.8TMZ2UxKK5z4v-rYEactL_OrJJ4gtVAZHFl4JcmGSn4"  ,
  "username": "ipgTestUser",
  "firstName": "ipgTestUserFirst",
  "lastName": "ipgTestUserLast",
@@ -54,7 +54,7 @@ request با فرمت token Bearer ارسال شود
     "callbackApi":"http://pep.co.ir",
     "payerMail":"**************",
     "mobileNumber":"************",
-    "terminalNumber": ******
+    "terminalNumber": 
 }
 ```
 
