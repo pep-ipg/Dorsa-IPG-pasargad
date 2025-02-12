@@ -80,6 +80,7 @@ request با فرمت token Bearer ارسال شود
 مبالغ پایین تر از 100 تراکنش از نوع تسهیم درصدی ، هم چنین برای مبالغ زیر 100 و اعشاری ، تراکنش از نوع تسهیم درصدی
 اعشاری استفاده می شود
 - شماره شباها در پارامتر sheba بدون IR وارد شوند
+  
 **URL:**`https://pep.shaparak.ir/dorsa1/api/payment/multiacc/purchase)`  
 **Method:** POST  
 **Body:**  
