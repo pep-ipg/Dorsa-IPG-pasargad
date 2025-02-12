@@ -120,7 +120,8 @@ request با فرمت token Bearer ارسال شود
 ```
 
 ## استعلام وضعیت تراکنس
-**URL:**https://pep.shaparak.ir/dorsa1/api/payment/payment-inquiry))`  
+
+**URL:**https://pep.shaparak.ir/dorsa1/api/payment/payment-inquiry)`  
 **Method:** POST  
 **Body:**  
 ```json
