@@ -157,7 +157,69 @@ resultMsg حاوی پیام مختصری مربوط به هر کد خواهد ب
   
 
   
-  
+  ## تایید تراکنش 
+- (تاییدیه)confirm: در صورت فراخانی سرویس confrim تراکنش تایید شده و مبلغ در سیکل شاپرکی به حساب پذیرنده واریز می شود
+- (وریفای)verify: در صورت فراخانی سرویس verify  قبل از زمان توافق شده در قرارداد؛ امکان کانفرم یا ریورس کردن تراکنش توسط پذیرنده موجود است(با محدودیت زمانی). درغیر اینصورت پس از گذشت آن زمان؛ تراکنش توسط سوییچ تایید confrim میشود.
+
+
+  ## سرویس تایید عملیات خرید (confirm)
+
+**URL:** `(https://pep.shaparak.ir/dorsa1/api/payment/confirm-transactions)`  
+**Method:** POST  
+**Body:**  
+```json
+{
+    "invoice": "123456",
+    "urlId": "8dcc5cd0ef7348548f8dc2ab29ebe11a7ad3eaad000000006217318"
+} 
+```
+
+## خروجی موفق
+```json
+{
+ "resultMsg": "Successful",
+ "resultCode": 0,
+ "data": {
+ "invoice": "123456",
+ "referenceNumber": "**********",
+ "trackId": "20",
+ "maskedCardNumber": "603770******0340",
+ "hashedCardNumber": 
+"ba6567ba6c96846464874461644250185fb6dd99d62c0392538a087c8be",
+ "requestDate": "2025-02-12T11:20:33.000",
+ "amount": 10001
+ }
+}
+```
 
 
 
+  ## سرویس تایید عملیات خرید (verify)
+
+**URL:** `(https://pep.shaparak.ir/dorsa1/api/payment/confirm-transactions)`  
+**Method:** POST  
+**Body:**  
+```json
+{
+    "invoice": "123456",
+    "urlId": "8dcc5cd0ef7348548f8dc2ab29ebe11a7ad3eaad000000006217318"
+} 
+```
+
+## خروجی موفق
+```json
+{
+ "resultMsg": "Successful",
+ "resultCode": 0,
+ "data": {
+ "invoice": "123456",
+ "referenceNumber": "**********",
+ "trackId": "20",
+ "maskedCardNumber": "603770******0340",
+ "hashedCardNumber": 
+"ba6567ba6c96846464874461644250185fb6dd99d62c0392538a087c8be",
+ "requestDate": "2025-02-12T11:20:33.000",
+ "amount": 10001
+ }
+}
+```
