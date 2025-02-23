@@ -23,7 +23,7 @@
  "resultCode": 0,
  "token":
 "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjM2Mjg2MzYsImp0aSI6IjEwMDYwIiwiaWF0Ij
-oxNzIzNjI1MDM2LCJzdWIiOiJpcGdUZXN0VXNlciJ9.8TMZ2UxKK5z4v-rYEactL_OrJJ4gtVAZHFl4JcmGSn4"  ,
+oxNzIzNjI1MDM2LCJzdWIiOiJpcGdUZXN0VXNlciJ9.8TMZ2UxKK5z4v-rYEactL_OrJJ4gtVAZHFl4JcmGSn4",
  "username": "ipgTestUser",
  "firstName": "ipgTestUserFirst",
  "lastName": "ipgTestUserLast",
@@ -54,7 +54,7 @@ request با فرمت token Bearer ارسال شود
     "callbackApi":"http://pep.co.ir",
     "payerMail":"**************",
     "mobileNumber":"************",
-    "terminalNumber": *******
+    "terminalNumber":*******
 }
 ```
 
@@ -94,7 +94,7 @@ request با فرمت token Bearer ارسال شود
     "callbackApi":"http://pep.co.ir",
     "payerMail":"**************",
     "mobileNumber":"************",
-    "terminalNumber": ******** ,
+    "terminalNumber":******** ,
  "sharedValue": [
     "0",
     "100"
@@ -217,7 +217,7 @@ resultMsg حاوی پیام مختصری مربوط به هر کد خواهد ب
  "trackId": "20",
  "maskedCardNumber": "603770******0340",
  "hashedCardNumber": 
-"ba6567ba6c96846464874461644250185fb6dd99d62c0392538a087c8be",
+ "ba6567ba6c96846464874461644250185fb6dd99d62c0392538a087c8be",
  "requestDate": "2025-02-12T11:20:33.000",
  "amount": 10001
  }
