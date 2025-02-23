@@ -131,6 +131,7 @@ request با فرمت token Bearer ارسال شود
 ```
 
 ## خروجی موفق
+
 ```json
 {
  "resultMsg": "Successful",
@@ -158,11 +159,13 @@ resultMsg حاوی پیام مختصری مربوط به هر کد خواهد ب
 
   
   ## تایید تراکنش 
+  
 - (تاییدیه)confirm: در صورت فراخانی سرویس confrim تراکنش تایید شده و مبلغ در سیکل شاپرکی به حساب پذیرنده واریز می شود
 - (وریفای)verify: در صورت فراخانی سرویس verify  قبل از زمان توافق شده در قرارداد؛ امکان کانفرم یا ریورس کردن تراکنش توسط پذیرنده موجود است(با محدودیت زمانی). درغیر اینصورت پس از گذشت آن زمان؛ تراکنش توسط سوییچ تایید confrim میشود.
 
 
-  ## سرویس تایید عملیات خرید (confirm)
+## سرویس تایید عملیات خرید(confirm)
+
 
 **URL:** `(https://pep.shaparak.ir/dorsa1/api/payment/confirm-transactions)`  
 **Method:** POST  
@@ -175,6 +178,7 @@ resultMsg حاوی پیام مختصری مربوط به هر کد خواهد ب
 ```
 
 ## خروجی موفق
+
 ```json
 {
  "resultMsg": "Successful",
@@ -195,6 +199,7 @@ resultMsg حاوی پیام مختصری مربوط به هر کد خواهد ب
 
 
   ## سرویس تایید عملیات خرید (verify)
+  
 
 **URL:** `(https://pep.shaparak.ir/dorsa1/api/payment/confirm-transactions)`  
 **Method:** POST  
@@ -207,6 +212,7 @@ resultMsg حاوی پیام مختصری مربوط به هر کد خواهد ب
 ```
 
 ## خروجی موفق
+
 ```json
 {
  "resultMsg": "Successful",
