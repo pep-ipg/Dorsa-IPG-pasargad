@@ -43,7 +43,7 @@ request با فرمت token Bearer ارسال شود
 
 
 ## 2.تراکنش خرید 
-**URL:**`https://pep.shaparak.ir/dorsa1/token/getToken)`  
+**URL:**`https://pep.shaparak.ir/dorsa1/api/payment/purchase`  
 **Method:** POST  
 **Body:**  
 ```json
