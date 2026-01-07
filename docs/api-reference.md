@@ -210,7 +210,7 @@ resultMsg حاوی پیام مختصری مربوط به هر کد خواهد ب
   ## 4.سرویس تایید عملیات خرید (verify)
   
 
-**URL:** `(https://pep.shaparak.ir/dorsa1/api/payment/confirm-transactions)`  
+**URL:** `(https://pep.shaparak.ir/dorsa1/api/payment/verify-transactions)`  
 **Method:** POST  
 **Body:**  
 ```json
