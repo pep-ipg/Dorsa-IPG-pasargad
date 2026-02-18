@@ -14,6 +14,8 @@
 * ادرس پایه(Base url) هر ترمینال متفاوت میباشد که هنگام دریافت اطلاعات پیاده سازی (نام کاربری و رمز عبور) برای شما ارسال میگردد.
 - https://pep.shaparak.ir/dorsa1
 - https://pep.shaparak.ir/dorsa2
+- https://pep.shaparak.ir/dorsa3
+- https://pep.shaparak.ir/nvcservice
 * در این آموزش تمامی سرویس ها با ادرس پایه dorsa1 فراخوانی شده است 
 
 
