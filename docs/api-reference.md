@@ -4,7 +4,7 @@
 
 
 ## 1.دریافت توکن
-**URL:**`https://pep.shaparak.ir/dorsa1/token/getToken)`  
+**URL:**`https://pep.shaparak.ir/dorsa1/token/getToken`  
 **Method:** POST  
 **Body:**  
 ```json
