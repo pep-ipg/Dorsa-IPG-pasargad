@@ -39,8 +39,6 @@ oxNzIzNjI1MDM2LCJzdWIiOiJpcGdUZXN0VXNlciJ9.8TMZ2UxKK5z4v-rYEactL_OrJJ4gtVAZHFl4J
 - پس از گرفتن توکن، در هر یک از سرویس هایی که در ادامه مورد استفاده قرار خواهند گرفت باید توکن در header هر
 request با فرمت token Bearer ارسال شود 
 
--  در صورتی که فراخوانی وب سرویس موفق باشد کد مربوط بهresultCode  برابر 0 خواهد­ بود و در صورتی که مقدار resultCod  مقدار دیگری داشت خطایی رخ داده است که در جدول خطاها توضیحات مربوط به آن کد خطا آمده است. resultMsg حاوی پیام مختصری مربوط به هر کد خواهد بود..
-
 
 
 ## 2.تراکنش خرید 
@@ -173,7 +171,7 @@ resultMsg حاوی پیام مختصری مربوط به هر کد خواهد ب
 - 
 
 
-## 4.سرویس تایید عملیات خرید(confirm)
+## 5.سرویس تایید عملیات خرید(confirm)
 
 
 **URL:** `(https://pep.shaparak.ir/dorsa1/api/payment/confirm-transactions)`  
@@ -208,7 +206,7 @@ resultMsg حاوی پیام مختصری مربوط به هر کد خواهد ب
 
 
 
-  ## 4.سرویس تایید عملیات خرید (verify)
+  ## 6.سرویس تایید عملیات خرید (verify)
   
 
 **URL:** `(https://pep.shaparak.ir/dorsa1/api/payment/confirm-transactions)`  
@@ -242,7 +240,7 @@ resultMsg حاوی پیام مختصری مربوط به هر کد خواهد ب
 
 
 
-  ##  برگشت تراکنش 
+  ## 7.برگشت تراکنش (reverse)
   
 
 **URL:** `(https://pep.shaparak.ir/dorsa1/api/payment/reverse-transactions)`  
