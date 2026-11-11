@@ -60,7 +60,7 @@
     "userId": "17",
     "roles": [
         {
-            "authority": "mpg"
+            "authority": "IPG"
         },
         {
             "authority": "merchant"
@@ -89,7 +89,7 @@
     "invoiceDate": "2025/08/30",
     "invoiceID": "123",
     "originInvoiceID": "123456",
-    "terminalNumber": 123456,
+    "terminalNumber": 200002,
     "originUrlId": "ec38ebbc8f1705bd8af4256461f98f281a8a43d1234500012345639"
 }
 ```
