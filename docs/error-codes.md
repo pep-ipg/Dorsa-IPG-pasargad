@@ -34,7 +34,7 @@
 | 13033 | Transaction status is reversed | وضعیت تراکنش اصلاحیه است (بازگشت وجه انجام شده است) |
 | 13034 | A successful verify has been received for the desired transaction | Verify موفق بوده و تاییدیه در زمان مقرر ایجاد خواهد شد |
 | 13045 | Card holder canceled transaction | دارنده کارت تراکنش را لغو کرد |
-| 13046 | Already setteled | تراکنش تسویه شده است |
+| 13046 | Already setteled | تراکنش قبلاً تعیین تکلیف شده است |
 | 13047 | Invalid merchant | پذیرنده کارت نامعتبر است |
 | 13049 | Incomplete transaction | تراکنش کامل نشده است |
 | 13054 | Invalid transaction | تراکنش نامعتبر است |
@@ -71,7 +71,7 @@
 | 13086 | Invalid confirm data | اطلاعات تاییدیه نامعتبر است |
 | 13087 | Switch or shaparak signing off | سوئیچ یا شاپرک در حال خاموش شدن است |
 | 13088 | Invalid encrypted key | کلید رمزگذاری شده نامعتبر است |
-| 13089 | Banned transaction with contact interface | تراکنش با واسط غیرتماسی مردود شد |
+| 13089 | Banned transaction with contact interface | انجام تراکنش با واسط غیرتماسی مردود شده است (تراکنش با واسط تماسی انجام گردد) |
 | 13090 | End work day | پایان روز کاری |
 | 13091 | Switch is inactive | سوئیچ غیر فعال است |
 | 13092 | There is no way to send transaction | صادرکننده کارت نامعتبر |
